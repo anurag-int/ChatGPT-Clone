@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   display: flex;
@@ -19,10 +20,55 @@
   flex:1;
   background-color: #343541;
   font-size: 25px;
-  padding: 10%;
   position: relative;
   
 }
+
+.chat-log{
+ text-align:  left;
+}
+
+.chat-message.chatgpt{
+  background-color: #444654;
+}
+
+.chat-input-center{
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.chat-message{
+  align-items: left;
+  font-size: 16px;
+}
+
+.avatar{
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar.chatgpt{
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #0da37f;
+}
+
+
+.message{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 10px
+}
+
 
 
 .side-menu-button{
